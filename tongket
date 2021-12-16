@@ -1,0 +1,7 @@
+def tongketngay(stcl):
+    print('TỔNG KẾT NGÀY: Bạn còn: ', stcl)
+def tongketthang(stcl, han_muc):
+    if stcl > han_muc:
+        print('THÔNG BÁO: Bạn đã chi tiêu ít hơn hạn mức')
+    elif stcl == han_muc: print('Bạn đã chi tiêu vừa bằng hạn mức')
+    else: print('THÔNG BÁO: Bạn đã chi tiêu vượt quá hạn mức')
